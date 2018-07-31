@@ -1,0 +1,21 @@
+#! /bin/bash
+
+# Remote config
+SERVER_CONN_HOST="root@example.com"
+SERVER_CONN_PORT="22"
+
+# Path remote routes config
+REMOTE_BACKUP_ROOT_DIR="/remote_backups"
+REMOTE_BACKUP_DB_DIR="${REMOTE_BACKUP_ROOT_DIR}/db"
+REMOTE_BACKUP_FILES_DIR="${REMOTE_BACKUP_ROOT_DIR}/files"
+REMOTE_BACKUP_MAILS_DIR="${REMOTE_BACKUP_ROOT_DIR}/mailboxes"
+
+# Path local routes config
+LOCAL_BACKUP_ROOT_DIR="/local_backups"
+LOCAL_BACKUP_FILES_DIR="${LOCAL_BACKUP_ROOT_DIR}/files"
+LOCAL_BACKUP_DB_DIR="${LOCAL_BACKUP_ROOT_DIR}/db"
+LOCAL_BACKUP_MAILS_DIR="${LOCAL_BACKUP_ROOT_DIR}/mailboxes"
+
+# Telegram config
+API_TOKEN="token_here"
+CHAT_ID="chat_id"
